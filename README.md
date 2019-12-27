@@ -1,2 +1,2 @@
-# tasks
-make tasks
+# Energy
+make project Energy
