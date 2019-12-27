@@ -1,0 +1,95 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100vh;
+	min-width: 800px;
+	font-family: verdana, sans-serif;
+}
+.maket {
+	position: ralative;
+	padding-left: 30px;
+}
+.buttonW input{
+	height: 50px;
+	width: 200px;
+	padding: 3px;
+	margin: 0 0;
+	padding-left: 0;
+	margin-top: 15px;
+	background-color: green;
+	border-radius: 18px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-style: none;
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+}
+.buttonW input:focus {
+	outline: none;
+}
+.buttonS input{
+	height: 50px;
+	width: 200px;
+	padding: 3px;
+	margin: 0 0;
+	padding-left: 0;
+	margin-top: 15px;
+	background-color: #ff7518;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-style: none;
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+}
+.buttonS input:focus {
+	outline: none;
+}
+/* Remove border and padding in Firefox */
+::-moz-focus-outer, ::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+form {
+	display: block;
+}
+input {
+	width: 170px;
+	height: 30px;
+	margin: 10px 0;
+	padding-left: 10px;
+	background-color: #5ad65a;
+	border-radius: 8px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-style: none;
+}
+.field {
+	display: block;
+	margin: 10px 5px;
+}
+label {
+	display: block;
+}
+select {
+	padding: 5px;
+	margin: 10px 0;
+	background-color: #5ad65a;
+	border-radius: 8px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-style: none;
+}
+table {
+	margin: 30px 0;
+	border: solid 1px silver;
+	width: 800px;
+	border-collapse: collapse;
+}
+td {
+	border: solid 1px green;
+	padding: 10px 5px;
+}
+h2 {
+	color: green;
+}
