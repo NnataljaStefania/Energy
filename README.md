@@ -1,2 +1,2 @@
 # Energy
-make project Energy
+Make project Energy
