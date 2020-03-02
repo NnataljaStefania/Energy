@@ -21,22 +21,22 @@ function compute() {
 		var tariffeDay =  parseInt(document.getElementById('tariffeDay').value);
 		var tariffNight =  parseInt(document.getElementById('tariffNight').value);
 		
-		var costtariffeDay = powerDay *  tariffeDay;
+		var costtariffeDay = powerDay *  tariffeDay; /* compute cost */
 		var nameCosttariffeDay = document.getElementById('nameCosttariffeDay');
 		nameCosttariffeDay.textContent = costtariffeDay;
 		nameCosttariffeDay.innerText = costtariffeDay;
 		
-		var costtariffeNight = powerDay *  tariffNight;
+		var costtariffeNight = powerDay *  tariffNight; /* compute cost */
 		var nameCosttariffeNight = document.getElementById('nameCosttariffeNight');
 		nameCosttariffeNight.textContent = costtariffeNight;
 		nameCosttariffeNight.innerText = costtariffeNight;
 		
-		var costBoth = costtariffeDay + costtariffeNight;
+		var costBoth = costtariffeDay + costtariffeNight; /* compute cost */
 		var nameCostBoth = document.getElementById('nameCostBoth');
 		nameCostBoth.textContent = costBoth;
 		nameCostBoth.innerText = costBoth;
 		
-	} /* end compute */
+	} /* and compute */
 onload = () => {
 	var form = document.getElementById('formId');
 form.noValidate = true;
@@ -49,4 +49,4 @@ form.addEventListener('submit', function(event){
 }, form.noValidate =  false);
 
 
-}  /* end for  noValidate */ 
+}  /* and for  noValidate */ 
